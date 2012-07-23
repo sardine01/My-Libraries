@@ -1,0 +1,22 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<div id = "testDiv" class="cl">
+			<table id = "testTable">
+				<tr>
+					<td>
+					</td>
+					<td>
+						@{out: var=testVar}
+						<input type="text" id="testInput" class="inputClass"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
